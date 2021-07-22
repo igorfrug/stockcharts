@@ -1,0 +1,34 @@
+.charts{
+    /* overflow: auto; */
+    display: flex;
+    flex-direction: column;
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 80px;
+    margin: auto;
+    border:none;
+    background-color: rgb(189, 247, 113);
+  }
+  .header,
+  .modal-body{
+    display:flex;
+    justify-content: center; 
+    margin-bottom: 5px; 
+  }
+  
+  .modal-footer{
+      display:flex;
+      justify-content: center;
+     
+  }
+  .text-content{
+    display:flex;
+    justify-content: space-evenly;   
+  }
+
+  
+ 
